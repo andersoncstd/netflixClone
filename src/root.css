@@ -1,0 +1,10 @@
+:root {
+    --base-color-black: #000000;
+    --base-color-white: aliceblue;
+    --base-color-black-hover: #212121;
+    --base-color-purble-light: #8666cd;
+}
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}

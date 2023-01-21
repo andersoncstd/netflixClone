@@ -1,0 +1,29 @@
+@import '../../root.css';
+
+#drop-itens {
+    background-color: var(--base-color-black);
+    position: fixed;
+    right: 30px;
+    top:74px;
+    text-align: center;
+}
+
+#drop-itens li {
+    padding: 5px 20px 5px 20px;
+}
+
+
+
+.drop-item {
+    display:block;
+    color: var(--base-color-white);
+    border-bottom: solid 1px;
+    border-color: var(--base-color-black-hover);
+    font-size: 20px;
+}
+
+.drop-item:hover {
+    background-color: var(--base-color-black-hover);
+    cursor: pointer;
+
+}

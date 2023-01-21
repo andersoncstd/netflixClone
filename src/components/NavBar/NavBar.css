@@ -14,9 +14,16 @@ nav {
     align-items: center;
     justify-content: space-between;
     background: var(--base-color-black);
-    padding: 20px 80px;
+    padding: 13px 30px 13px 30px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
+
+.nav-subdiv {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
 
 #nav-links {
     display: flex;
@@ -29,6 +36,7 @@ nav {
     list-style: none;
     padding: 0 20px;
     position: relative;
+    
 }
 
 #nav-links li a{
@@ -53,6 +61,19 @@ nav {
     position: absolute;
     bottom: -4px;
     left: 20px;
+    font-weight: 600;
+}
+
+.nav-logo {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700px;
+    color: var(--base-color-white);
+    transition: 0.3s ease-in-out;
+    text-align: center;   
+    display:inline;
+    padding: 0 20px;
+    
 }
 
 #nav-mobile {
@@ -60,14 +81,19 @@ nav {
     display: none;   
 }
 
-@media screen and (max-width:769px) {
-    #nav-links {
+@media screen and (max-width:1070px) {
+
+}
+
+@media screen and (max-width:1020px) {
+
+    #nav-links:not(.avatar) {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top:90px;
+        top:75px;
         right: -300px;
         width:300px;
         height:100vh;
@@ -76,12 +102,12 @@ nav {
         padding: 40px 0 0 10px;
         color: var(--base-color-purble-light);
         transition: 0.3s ease-in-out;
+        font-weight: 600;
     }
-    #nav-links.active {
+    #nav-links.active:not(.avatar) {
         right: 0px;
     }
     #nav-mobile {
-
         display:block;
     }
     #nav-links li {
@@ -90,8 +116,16 @@ nav {
     #nav-mobile{
         cursor: pointer;
     }
+    #avatar-field {
+        display: block;
+    }
+
 }
 
 .nav-icons {
     font-size:1.3rem;
+}
+
+.bolder {
+    font-weight: 600;
 }

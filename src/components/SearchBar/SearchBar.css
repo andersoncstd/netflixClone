@@ -1,0 +1,42 @@
+@import '../../root.css';
+
+.search-div {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid var(--base-color-black-hover);
+}
+
+.search-input {
+    margin-left: 13px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+    background-color: var(--base-color-black);
+    color: var(--base-color-white);
+}
+
+.search-input:focus {
+    border: none;
+    border-bottom: 2px solid white;
+
+    font-size: 18px;
+}
+
+@media screen and (max-width:1020px) {
+    .search-input {
+        width: 90%;
+    }
+    .search-div {
+        padding-left: none;
+        border-left: 0;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .search-div {
+        display: none;
+    }
+}

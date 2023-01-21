@@ -1,0 +1,34 @@
+@import "../../root.css";
+
+
+.profile-picture {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.profile-name {
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.avatar-itens {
+    display: flex;
+
+    /* background-color: var(--base-color-black-hover); */
+}
+li {
+    padding: 0 3px 0 3px ;
+}
+
+.avatar-container {
+    border-left: solid 1px;
+    border-color: var(--base-color-black-hover);
+    cursor: pointer;
+}
+
+.arrow {
+    color: var(--base-color-white);
+}
+.arrow:hover {
+    color: var(--base-color-purble-light);
+}
