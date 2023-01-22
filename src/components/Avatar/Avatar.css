@@ -32,3 +32,10 @@ li {
 .arrow:hover {
     color: var(--base-color-purble-light);
 }
+
+@media screen and (max-width:444px) {
+    .avatar-children {
+        display: none;
+    }
+}
+

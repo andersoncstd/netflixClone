@@ -18,6 +18,8 @@ nav {
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
 
+
+
 .nav-subdiv {
     display: flex;
     align-items:center;
@@ -85,7 +87,7 @@ nav {
 
 }
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1148px) {
 
     #nav-links:not(.avatar) {
         display: flex;
@@ -103,6 +105,9 @@ nav {
         color: var(--base-color-purble-light);
         transition: 0.3s ease-in-out;
         font-weight: 600;
+    }
+    #avatar-field {
+        order:3;
     }
     #nav-links.active:not(.avatar) {
         right: 0px;
@@ -126,6 +131,19 @@ nav {
     font-size:1.3rem;
 }
 
+#close-icon {
+    font-size:2rem;
+}
+
 .bolder {
     font-weight: 600;
+}
+
+.nav-notification-hided {
+    display: none;
+}
+@media screen and (max-width:444px) {
+    .nav-notification-hided {
+        display: block;
+    }
 }

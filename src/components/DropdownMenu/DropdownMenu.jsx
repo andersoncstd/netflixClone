@@ -15,7 +15,6 @@ function DropdownMenu(props) {
           <li className='drop-item'>Ajuda</li>
           <li className='drop-item'>Sair</li>
         </ul>
-
       </div>
     </>
   );
