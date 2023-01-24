@@ -13,7 +13,6 @@ export default function MovieCard(props) {
             </ul>
                 <img className="poster" src={poster} alt={`Assistir ${name}`} />
             </div>
-
         </div>
         </>
     )
