@@ -1,0 +1,15 @@
+.poster {
+    width: 25%;
+}
+
+.movie-info-li {
+    display: none;
+    color: aliceblue;
+}
+.movie-poster:hover li{
+    display: block;
+}
+
+.movie-poster:hover {
+    border: 1px solid white;
+}

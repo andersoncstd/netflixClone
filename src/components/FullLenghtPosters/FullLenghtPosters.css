@@ -6,6 +6,7 @@
 
 }
 
+
 /* .movie-name {
     margin-top: -30px;
     color: var(--base-color-white);
@@ -25,6 +26,8 @@
 }
 
 .horizontal-poster {
+    display: block;
+    margin:0 auto;
     width: 80%;
     height: 400px;
     object-fit: cover;
