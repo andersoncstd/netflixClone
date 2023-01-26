@@ -39,10 +39,11 @@ class RandomImage extends React.Component {
   render() {
     return (
       <>
+        <h3 className='container-title'>EM DESTAQUE</h3>
         <div className='main-container'>
           <img className='horizontal-poster' src={images[this.state.image]} />
         </div>
-        <h3 className='container-title'>EM DESTAQUE</h3>
+
       </>
     );
   }

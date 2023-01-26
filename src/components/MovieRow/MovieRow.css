@@ -1,7 +1,7 @@
-.movie-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+
+
+
+.movie-row1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

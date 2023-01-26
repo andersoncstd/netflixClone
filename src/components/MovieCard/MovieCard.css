@@ -1,15 +1,11 @@
 .poster {
-    width: 25%;
+    width: 70%;
+    border-radius: 1rem;
 }
 
-.movie-info-li {
-    display: none;
-    color: aliceblue;
-}
-.movie-poster:hover li{
-    display: block;
+.movie-container {
+
 }
 
-.movie-poster:hover {
-    border: 1px solid white;
-}
+
+
